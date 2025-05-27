@@ -12,13 +12,7 @@
 <ul>
   <li>Classic Wordle game mechanics</li>
   <li>Input validation and feedback system</li>
-  <li>Color-coded letter hints:
-    <ul>
-      <li>🌕 <strong>Supernova</strong> – correct letter in the correct position</li>
-      <li>🪐 <strong>Orbit</strong> – correct letter but in the wrong position</li>
-      <li>🌑 <strong>Black Hole</strong> – letter not in the word</li>
-    </ul>
-  </li>
+  <li>Color-coded letter hints </li>
   <li>Responsive design for mobile devices</li>
   <li>On-screen keyboard for interaction</li>
 </ul>
