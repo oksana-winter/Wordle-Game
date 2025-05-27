@@ -1,0 +1,76 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Wordle</title>
+    <link rel="stylesheet" href="slyle.css">
+</head>
+<body>
+    <br>
+    <h1>WORDLE GAME</h1>
+    <p>You have six attempts to guess a five-letter word</p>
+
+    <div class="main-container" id="grid">
+        
+        <div class="word-row">
+            <div class="letter-box"></div>
+            <div class="letter-box"></div>
+            <div class="letter-box"></div>
+            <div class="letter-box"></div>
+            <div class="letter-box"></div>
+        </div>
+
+        <div class="word-row">
+            <div class="letter-box"></div>
+            <div class="letter-box"></div>
+            <div class="letter-box"></div>
+            <div class="letter-box"></div>
+            <div class="letter-box"></div>
+        </div>
+
+        <div class="word-row">
+            <div class="letter-box"></div>
+            <div class="letter-box"></div>
+            <div class="letter-box"></div>
+            <div class="letter-box"></div>
+            <div class="letter-box"></div>
+        </div>
+
+        <div class="word-row">
+            <div class="letter-box"></div>
+            <div class="letter-box"></div>
+            <div class="letter-box"></div>
+            <div class="letter-box"></div>
+            <div class="letter-box"></div>
+        </div>
+
+        <div class="word-row">
+            <div class="letter-box"></div>
+            <div class="letter-box"></div>
+            <div class="letter-box"></div>
+            <div class="letter-box"></div>
+            <div class="letter-box"></div>
+        </div>
+
+        <div class="word-row">
+            <div class="letter-box"></div>
+            <div class="letter-box"></div>
+            <div class="letter-box"></div>
+            <div class="letter-box"></div>
+            <div class="letter-box"></div>
+        </div>
+
+        <div>
+            <label for="guess">Enter your guess:</label>
+            <div class="check-flex-container">
+                <input type="text" id="guess" name="guess">
+                <button id="check-button">Check</button>
+            </div>
+        </div>
+
+        <div id="message"></div>
+        <script src="script.js" type="module"></script>
+    </div>
+</body>
+</html>

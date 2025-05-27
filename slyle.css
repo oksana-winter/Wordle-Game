@@ -1,0 +1,109 @@
+* {
+    box-sizing: border-box;
+    margin: 0;
+    padding: 0;
+    font-family: "Clear Sans", "Helvetica Neue", Arial, sans-serif;
+}
+
+h1 {
+    font-size: 2rem;
+    text-align: left;
+    margin-bottom: 20px;
+    color: #45b027; 
+}
+
+p {
+    padding-left: 20px;
+    color: #bdbdbd;
+}
+
+body {
+    background: linear-gradient(to bottom, rgba(0, 0, 0, 0.7), rgba(0, 0, 0, 0.2)), url('img-cosmos.jpg');
+    background-size: cover;        
+    background-position: center;   
+    background-repeat: no-repeat;   
+    background-attachment: fixed;  
+    
+    color: #e0e0e0;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    min-height: 100vh;
+    flex-direction: column;
+}
+
+.main-container {
+    display: flex;
+    flex-direction: column;
+    gap: 10px;
+    padding: 20px;
+}
+
+.word-row {
+    display: flex;
+    justify-content: center;
+    gap: 5px;
+}
+
+.letter-box {
+    flex: 1 1 62px;
+    height: 62px;
+    border: 2px solid #3f51b5;
+    border-radius: 500px;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    font-size: 2rem;
+    font-weight: bold;
+    text-transform: uppercase;
+    background-color: rgba(118, 101, 146, 0.189);
+    color: #e0e0e0;
+    transition: background-color 0.3s ease;
+}
+
+.letter-box.correct-position {
+    background-color: #00e5ff; 
+    color: #7177c7;
+}
+
+.letter-box.correct-letter {
+    background-color: #ff4081; 
+    color: #7379c4;
+}
+
+
+input[type="text"] {
+    margin-top: 20px;
+    padding: 10px;
+    font-size: 1rem;
+    border-radius: 500px;
+    border: 2px solid #3f51b5;
+    background-color: #12131f;
+    color: #ffffff;
+    outline: none;
+}
+
+input[type="text"]::placeholder {
+    color: rgba(0, 0, 0, 0.2);
+}
+
+.check-flex-container {
+    display: flex;
+    justify-content: space-between;
+    gap: 2%;
+}
+
+button {
+    margin-top: 20px;
+    padding: 15px;
+    border-radius: 500px;
+    color: #ffffff;
+    background-color: #45b027; 
+    border: none;
+    cursor: pointer;
+    transition: background-color 0.3s ease;
+}
+
+button:hover {
+    background-color: #53d72e; 
+}
