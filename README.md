@@ -14,9 +14,9 @@
   <li>Input validation and feedback system</li>
   <li>Color-coded letter hints:
     <ul>
-      <li>🟩 correct letter in the correct position</li>
-      <li>🟨 correct letter in the wrong position</li>
-      <li>⬜ letter not in the word</li>
+      <li>🌕 <strong>Supernova</strong> – correct letter in the correct position</li>
+      <li>🪐 <strong>Orbit</strong> – correct letter but in the wrong position</li>
+      <li>🌑 <strong>Black Hole</strong> – letter not in the word</li>
     </ul>
   </li>
   <li>Responsive design for mobile devices</li>
