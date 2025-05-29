@@ -6,7 +6,7 @@
 <p><a href="https://oksana-winter.github.io/Wordle-Game/" target="_blank">Play the Game</a></p>
 
 <h2>👥 Project Team</h2>
-<p>This project was developed collaboratively by Awersome-Team</p>
+<p>This project was developed collaboratively by Awesome-Team</p>
 
 <h2>📌 Features</h2>
 <ul>
@@ -35,5 +35,3 @@
   <li>Open <code>index.html</code> in your browser.</li>
 </ol>
 
-<h2>📄 License</h2>
-<p>This project is licensed under the <a href="LICENSE">MIT License</a>.</p>
